@@ -1,0 +1,491 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+  }
+  
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+ 
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+header{
+  width: 100%;
+  height: 100vh;
+  background: url("../img-salud/pexels-tima-miroshnichenko-5355865.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+/* Apuntamos a la barra de navegación que está dentro de header */
+header nav{
+  /* background-color: red; */
+  display: flex;
+  /* height: 400px; */
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px 0;
+
+}
+
+header nav img{
+  width: 200px ;
+
+  padding: 0px;
+  margin: 0px;
+}
+
+header ul a{
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  margin: 0 18px;
+  text-decoration: none;
+  transition: .6s;
+}
+
+header ul a:hover{
+  border-bottom: 2px solid #ffffff;
+}
+
+#hero{
+  /* background-color: red; */
+  text-align: center;
+  margin-top: 210px;
+  flex-wrap: wrap;
+}
+
+#hero h2{
+  color:rgb(0, 121, 243);
+  font-size: 60px;
+}
+
+#hero h1 {
+  color:  white;
+  font-size: 30px;
+  margin-bottom: 100px;
+}
+
+#hero button {
+  background-color: rgb(0, 121, 243)
+  ;
+  color: rgb(255, 255, 255);
+  font-size: 32px;
+  padding: 10px 25px;
+  border-radius: 10px;
+  border-color: transparent;
+  cursor: pointer;
+}
+
+main{
+  width: 100%;
+  position: relative;
+}
+
+#planes img{
+  width: 100px;
+  height: 100px;
+  align-items: center;
+}
+
+#planes{
+  width: 100%;
+  padding: 120px 0;
+  text-align: center;
+  background-color: rgb(248, 248, 248);
+  flex-wrap: wrap;
+
+}
+#planes h2{
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: rgb(0, 121, 243);
+}
+
+
+#planes p{
+  font-size: 22px;
+  color: #000000;
+}
+
+#planes .fila{
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+  min-width: 250px;
+}
+
+#planes article{
+  margin: 0 40px;
+  position: relative;
+}
+
+#planes article h3{
+ align-items: center;
+  z-index: 100;
+  top: 100px;
+  width: 100%;
+  text-align: center;
+  color: #000000;
+}
+
+
+main{
+  width: 100%;
+  position: relative;
+}
+
+
+#biomedic{
+  width: 100%;
+  padding: 120px ;
+  text-align: center;
+  position: relative;
+  flex-wrap: wrap;
+}
+
+#biomedic{
+  width: 100%;
+  padding: 120px ;
+  text-align: center;
+  position: relative;
+}
+#biomedic h2{
+  font-size: 40px;
+  margin-bottom: 40px;
+  color: rgb(0, 121, 243);
+}
+
+#biomedic .fila article h3{
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: rgb(0, 121, 243);
+  }
+
+#biomedic .fila img{
+  height: 100px;
+  width: 100px;
+}
+
+#biomedic .fila{
+  position: relative;
+  display: flex;
+  justify-content:center;
+  margin-top: 60px;
+  min-width: 250px;
+}
+
+#biomedic article{
+  margin: 0 40px;
+  position: relative;
+  background-color: #ffffff;
+  transition: background-color 2s;
+  -webkit-transition: 1s linear;
+  transition: 1s linear;
+  cursor: pointer;
+  
+}
+
+#biomedic article:hover{
+  -webkit-box-shadow: 10px 10px 14px 2px rgba(0,0,0,0.47);
+    box-shadow: 10px 10px 14px 2px rgba(0,0,0,0.47);
+  background-color:#cccccc;
+}
+
+#biomedic article h3{
+  position: relative;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+
+
+#biomedic{
+  background-color: #fff;
+  background-size: cover;
+}
+
+
+#destinos{
+  width: 100%;
+  padding: 120px ;
+  text-align: center;
+  position: relative;
+  flex-wrap: wrap;
+}
+#destinos h2{
+  font-size: 40px;
+  margin-bottom: 40px;
+  color: rgb(0, 121, 243);
+}
+
+#destinos .fila article h3{
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: rgb(0, 121, 243);
+  }
+
+#destinos .fila img{
+  height: 300px;
+  width: 300px;
+}
+
+#destinos .fila{
+  position: relative;
+  display: flex;
+  justify-content:center;
+  margin-top: 60px;
+  min-width: 250px;
+}
+
+#destinos article{
+  margin: 0 40px;
+  position: relative;
+  background-color: rgb(248, 248, 248);
+  transition: background-color 2s;
+  -webkit-transition: 1s linear;
+  transition: 1s linear;
+  cursor: pointer;
+}
+
+#destinos article:hover{
+    padding: 30px;
+  background-color:#cccccc;
+}
+
+#desinos article img{
+  transition: background-color 2s;
+  -webkit-transition: font-size 1s ease;
+}
+
+#destinos article:hover{
+  font-size: 28px;
+}
+
+#destinos article h3{
+  position: relative;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+
+
+#destinos{
+  background-color: rgb(248, 248, 248);
+  background-size: cover;
+}
+
+
+
+
+
+
+
+#afiliate{
+  width: 100%;
+  padding: 120px ;
+  text-align: center;
+  position: relative;
+  flex-wrap: wrap;
+}
+
+
+#afiliate{
+  width: 100%;
+  padding: 120px ;
+  text-align: center;
+  position: relative;
+}
+#afiliate h2{
+  font-size: 40px;
+  margin-bottom: 40px;
+  color: rgb(0, 121, 243);
+}
+
+
+#afiliate .fila article h3{
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: rgb(0, 121, 243);
+  }
+
+#afiliate .fila img{
+  height: 100px;
+  width: 100px;
+}
+
+#afiliate .fila{
+  position: relative;
+  display: flex;
+  justify-content:center;
+  margin-top: 60px;
+  min-width: 250px;
+}
+
+#afiliate article{
+  margin: 0 40px;
+  position: relative;
+  background-color: #ffffff;
+  transition: background-color 2s;
+  -webkit-transition: 1s linear;
+  transition: 1s linear;
+  cursor: pointer;
+}
+
+#afiliate article:hover{
+    -webkit-box-shadow: 10px 10px 14px 2px rgba(0,0,0,0.47);
+    box-shadow: 10px 10px 14px 2px rgba(0,0,0,0.47);
+  background-color:#cccccc;
+}
+
+#afiliate article h3{
+  position: relative;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+
+
+#afiliate{
+  background-color: #fff;
+  background-size: cover;
+}
+
+
+
+
+
+
+
+
+#personal{
+  width: 100%;
+  padding: 120px ;
+  text-align: center;
+  position: relative;
+  flex-wrap: wrap;
+}
+#personal h2{
+  font-size: 40px;
+  margin-bottom: 40px;
+  color: rgb(0, 121, 243);
+}
+
+#personal .fila article h3{
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: rgb(0, 121, 243);
+  }
+
+#personal .fila img{
+  height: 300px;
+  width: 300px;
+}
+
+#personal .fila{
+  position: relative;
+  display: flex;
+  justify-content:center;
+  margin-top: 60px;
+  min-width: 250px;
+}
+
+#personal article{
+  margin: 0 40px;
+  position: relative;
+  background-color: rgb(248, 248, 248);
+  transition: background-color 2s;
+  -webkit-transition: 1s linear;
+  transition: 1s linear;
+  cursor: pointer;
+}
+
+#personal article:hover{
+    padding: 30px;
+  background-color:#cccccc;
+}
+
+#personalarticle img{
+  transition: background-color 2s;
+  -webkit-transition: font-size 1s ease;
+}
+
+#personal article:hover{
+  font-size: 28px;
+}
+
+#personal article h3{
+  position: relative;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+
+
+#personal{
+  background-size: cover;
+}
+
+
+
+
+
+
+
+
+#contacto h2{
+  font-size: 50px;
+  color: rgb(0, 121, 243) ;
+}
+
+#contacto p{
+  font-size: 20px;
+  color: #000000;
+}
+
+#contacto{
+  width: 100%;
+  text-align: center;
+  padding: 100px 0;
+  background-color: rgb(248, 248, 248);
+  flex-wrap: wrap;
+}
+
+#contacto form{
+  width: 50%;
+  margin: 40px auto; 
+}
+
+#contacto input,
+#contacto select{
+  width: 40%;
+  padding: 8px 14px;
+  font-size: 20px;
+  margin: 10px;  
+}
+
+#contacto button{
+  padding: 14px 30px;
+  font-size: 20px;
+  background-color: #0079f3;
+  color: #fff;
+  border-radius: 8px;
+  margin-top: 60px;
+  border-color: transparent;
+
+}
+
+footer{
+  background-color: #cccccc;
+  color: black;
+  text-align: center;
+  padding: 40px;
+  font-size: 20px;
+}
